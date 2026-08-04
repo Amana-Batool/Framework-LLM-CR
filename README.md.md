@@ -25,3 +25,20 @@ python==3.13.5
 The experimental data are located under the DATA folder.
 ### LLMs
 Interact with LLMs using your own API key.
+
+## Running the Code
+
+Before running the scripts, update the input file paths and configuration parameters at the beginning of each Python file. Place the observational dataset, common-edge adjacency matrix, disputed-edge list, and pairwise LLM response JSON files in the expected directories.
+
+Run the scripts from the repository root in the following order:
+
+```bash
+python schema_generator.py
+python response_generator.py
+python verifier.py
+python semantic_entropy.py
+python llm_prior_calculation.py
+python bic_calculation.py
+python hsic_calculation.py
+python combined_score.py
+python llm_recovery.py
