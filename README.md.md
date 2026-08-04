@@ -23,12 +23,13 @@ python==3.13.5
 ### Datasets
 
 The experimental data are located under the DATA folder.
+
 ### LLMs
 Interact with LLMs using your own API key.
 
 ## Running the Code
 
-Before running the scripts, update the input file paths and configuration parameters at the beginning of each Python file. Place the observational dataset, common-edge adjacency matrix, disputed-edge list, and pairwise LLM response JSON files in the expected directories.
+Before running the scripts, update the input file paths and configuration parameters at the beginning of each Python file. Place the observational dataset and metadata in the expected directories.
 
 Run the scripts from the repository root in the following order:
 
