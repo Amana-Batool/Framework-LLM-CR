@@ -1,0 +1,12 @@
+﻿,DMC,GDI,Sex,SMC,Spasticity,Strength,Speed,Age,Mass,Height,Metabolic_Power
+DMC,0,1,0,0,0,0,1,0,0,0,1
+GDI,0,0,0,0,0,0,0,0,0,0,1
+Sex,0,0,0,0,0,1,0,0,1,1,0
+SMC,0,1,0,0,0,0,1,0,0,0,1
+Spasticity,0,1,0,0,0,0,1,0,0,0,1
+Strength,0,1,0,0,0,0,1,0,0,0,1
+Speed,0,1,0,0,0,0,0,0,0,0,1
+Age,0,0,0,0,0,1,1,0,1,1,1
+Mass,0,0,0,0,0,1,1,0,0,0,1
+Height,0,0,0,0,0,1,1,0,1,0,1
+Metabolic_Power,0,0,0,0,0,0,0,0,0,0,0

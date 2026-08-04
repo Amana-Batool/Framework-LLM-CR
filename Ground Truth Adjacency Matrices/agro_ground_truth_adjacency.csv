@@ -1,0 +1,7 @@
+,VRF,Shear_stress,Membrane,Jp,Crossflow,TMP
+VRF,0,1,0,1,0,1
+Shear_stress,0,0,0,1,1,1
+Membrane,0,1,0,1,0,1
+Jp,0,0,0,0,0,1
+Crossflow,0,0,0,0,0,0
+TMP,0,0,0,0,0,0

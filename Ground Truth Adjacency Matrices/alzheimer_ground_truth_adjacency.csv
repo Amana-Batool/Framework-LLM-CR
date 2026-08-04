@@ -1,0 +1,10 @@
+,sex,education,age,apoe4,moca,av45,tau,brain_volume,ventricular_volume
+sex,0,0,0,0,1,0,0,1,1
+education,0,0,0,0,1,0,0,0,0
+age,0,0,0,0,1,1,1,1,1
+apoe4,0,0,0,0,0,0,0,1,1
+moca,0,0,0,0,0,0,0,1,1
+av45,0,0,0,0,0,0,1,1,0
+tau,0,0,0,0,0,0,0,1,0
+brain_volume,0,0,0,0,0,0,0,0,1
+ventricular_volume,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,57 @@
+{
+  "DMC": {
+    "alias": "dynamic motor control",
+    "meaning": "The neuromuscular system's ability to coordinate muscle activation patterns efficiently during walking.",
+    "measured_as": "Dynamic Motor Control (DMC) is a metric used to evaluate the complexity of muscle activation, typically during gait, by analysing how muscles are coordinated through synergies. It is often calculated by assessing how much variance in electromyographic (EMG) signals is explained by one or more synergies relative to typical development. The DMC index reflects the complexity of motor coordination during walking and is calculated from electromyographic data for each child. Individuals with chronic mild-to-moderate brain injury show significantly lower Walk-DMC scores compared with healthy controls, indicating a reduced capacity to coordinate muscle patterns. While individuals with brain injury may show muscle synergy weightings (the 'what') similar to those of healthy individuals, their temporal activation of these synergies (the 'when') may be altered. This variable is derived from its own measurement procedure and represents a neuromuscular assessment score."
+  },
+  "GDI": {
+    "alias": "gait deviation index",
+    "meaning": "The Gait Deviation Index (GDI) is a unitless, scaled metric used in biomechanics to quantify how much an individual's gait deviates from a typically developing (TD) control group. A score of 100 represents normal gait, and every 10 points below 100 indicates one standard deviation of deviation from normal gait.",
+    "measured_as": "Patients underwent quantitative 3D gait analysis with electromyography of the anterior tibialis, lateral and medial hamstrings, gastrocsoleus, and rectus femoris muscles. 3D gait analysis data are typically collected from nine lower-limb joint angles: pelvic tilt, pelvic obliquity, pelvic rotation, hip flexion, hip abduction, hip rotation, knee flexion, ankle dorsiflexion, and foot progression. The data are time-normalised to a full gait cycle, usually sampled at 101 or 51 points. Singular Value Decomposition (SVD) or Principal Component Analysis (PCA) is applied to a large dataset of normative walking strides to identify independent gait features that define normal motion. These features form an orthonormal basis, and previous work found that 15 features were sufficient to explain 98% of the total variance in the CP dataset. Using the motion-capture data from gait analysis, GDI scores are calculated by producing a reduced-order approximation of 15 kinematic gait features and scaling them relative to a group of children with typical development. As a result, GDI reflects the difference between an individual's overall kinematics and the average gait pattern of a child with typical development."
+  },
+  "Metabolic Power": {
+    "alias": "net metabolic power",
+    "meaning": "Net metabolic power during walking is the metabolic energy consumed while walking minus the metabolic energy consumed while resting, expressed per unit time.",
+    "measured_as": "Breath-to-breath oxygen consumption was measured during six minutes of overground, barefoot walking around a rectangular 80-meter track. Breath-to-breath oxygen consumption was also measured during 10 minutes of reclining rest before the walking session. The average steady-state oxygen consumption was calculated for both periods. Oxygen consumption per unit time was converted to power using a conversion rate of 20.1 J/mL O₂. Net metabolic power was then calculated by subtracting resting metabolic power from walking metabolic power."
+  },
+  "SMC": {
+    "alias": "selective motor control",
+    "meaning": "Selective motor control (SMC) is the ability to voluntarily activate individual muscles without obligatory contractions of other muscles. It can be assessed selectively during sitting or lying, or dynamically during gait.",
+    "measured_as": "Selective motor control was measured by a physical therapist using a 3-point scale: 0 = patterned movement, 1 = partially isolated movement, and 2 = completely isolated movement. The physical therapist measured SMC for hip flexion, hip adduction, knee extension, knee flexion, plantarflexion, and posterior tibial muscle strength. SMC is a summary measure calculated individually without involving other neuromuscular controls. The brain injury lowers the ability to voluntarily activate individual muscles. This variable is derived from its own measurement procedure and represents a neuromuscular assessment score."
+  },
+  "Spasticity": {
+    "alias": "spasticity",
+    "meaning": "Spasticity is an upper motor neuron disorder characterised by velocity-dependent increased muscle tone and exaggerated stretch reflexes resulting from loss of inhibitory supraspinal control, happened due to brain injury at the time of birth in children with CP. Clinical severity ranges from mild hypertonia to profound rigidity with joint immobility. Complications include pain, impaired hygiene, contractures, pressure ulcers, subluxation, heterotopic ossification, and functional decline. In selected cases, increased tone may facilitate weight-bearing or ambulation. Diagnosis is clinical, supported by structured tone assessment, and prognosis depends on etiology and timely intervention.",
+    "measured_as": "Spasticity was measured by a trained physical therapist using the Ashworth Scale. The Ashworth Scale is a 5-point scale: 1 = no increase in tone, 2 = slight increase in tone, 3 = more marked increase in tone, 4 = considerable increase in tone, and 5 = rigidity. Six muscle groups were assessed bilaterally: hip flexors, hip adductors, rectus femoris, hamstrings, plantarflexors, and tibialis posterior. A summary spasticity score was calculated by applying polychoric principal component analysis to the bilateral measurements from these six muscles for individuals with complete data. Polychoric principal component analysis was used because standard principal component analysis can produce biased estimates with categorical data.This variable is derived from its own measurement procedure and represents a neuromuscular assessment score."
+  },
+  "Strength": {
+    "alias": "muscle strength",
+    "meaning": "Strength in gait refers to the muscle force or power, primarily from the hips, knees, and ankles, needed to execute the walking cycle efficiently, maintain stability, and propel the body forward.",
+    "measured_as": "Strength was measured by a physical therapist for the hip flexors, hip adductors, rectus femoris, hamstrings, plantarflexors, and tibialis posterior. It was measured using the Kendall scale, a 5-point scale where 1 is defined as visible or palpable contraction with no range of motion, and 5 is defined as full range of motion against gravity. A summary strength score was calculated using polychoric principal component analysis, including measurements from both lower limbs for individuals with complete data. This variable is derived from its own measurement procedure and represents a neuromuscular assessment score."
+  },
+  "Speed": {
+    "alias": "gait speed",
+    "meaning": "Gait speed is the rate at which a person walks and is calculated as the distance travelled divided by the time taken.",
+    "measured_as": "Average walking speed was calculated during the walking trial. Speed is determined by the equation: speed = distance ÷ time."
+  },
+  "Age": {
+    "alias": "patient age",
+    "meaning": "Age refers to the patient's age at the time of the gait trial or clinical assessment.",
+    "measured_as": "Age was recorded for each patient during the trial or obtained from the clinical record."
+  },
+  "Mass": {
+    "alias": "body mass",
+    "meaning": "Mass refers to the patient's body weight or body mass at the time of assessment.",
+    "measured_as": "Mass was measured or recorded during the clinical trial or assessment session, usually in kilograms."
+  },
+  "Height": {
+    "alias": "body height",
+    "meaning": "Height refers to the patient's body height at the time of assessment.",
+    "measured_as": "Height was measured or recorded during the clinical trial or assessment session, usually in centimeters or meters."
+  },
+  "Sex": {
+    "alias": "biological sex",
+    "meaning": "Sex refers to the patient's recorded biological sex or sex category in the dataset.",
+    "measured_as": "Sex was recorded during the clinical assessment and obtained from the patient's clinical record. It is usually encoded as a categorical variable."
+  }
+}

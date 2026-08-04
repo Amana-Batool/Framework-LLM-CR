@@ -1,0 +1,9 @@
+﻿source_variable,Severity,Age,Hx,Imp_pre_score,GDI_pre,SEMLS,Delta_Imp_score,Delta_GDI
+Severity,0,0,1,1,0,0,0,0
+Age,0,0,1,1,1,1,1,0
+Hx,0,0,0,1,0,1,0,0
+Imp_pre_score,0,0,0,0,1,1,1,0
+GDI_pre,0,0,0,0,0,1,1,0
+SEMLS,0,0,0,0,0,0,1,0
+Delta_Imp_score,0,0,0,0,0,0,0,1
+Delta_GDI,0,0,0,0,0,0,0,0

@@ -1,0 +1,6 @@
+,MetastCancer,BrainTumor,IncrSerCal,Coma,SevHeadaches
+MetastCancer,0,1,1,0,0
+BrainTumor,0,0,0,1,1
+IncrSerCal,0,0,0,1,0
+Coma,0,0,0,0,0
+SevHeadaches,0,0,0,0,0
